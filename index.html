@@ -79,11 +79,15 @@
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="./images/mountains.jpg"
-            class="d-block w-100"
-            alt="Mountains"
-          />
+          <picture>
+            <source srcset="./images/mountains.webp" type="image/webp" />
+            <source srcset="./images/mountains.jpg" type="image/jpg" />
+            <img
+              src="./images/mountains.jpg"
+              alt="Mountains"
+              class="d-block w-100"
+            />
+          </picture>
           <div class="carousel-caption">
             <h4>The best choice for your startup</h4>
             <p>
@@ -94,7 +98,11 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/space.jpg" class="d-block w-100" alt="Space" />
+          <picture>
+            <source srcset="./images/space.webp" type="image/webp" />
+            <source srcset="./images/space.jpg" type="image/jpg" />
+            <img src="./images/space.jpg" alt="Space" class="d-block w-100" />
+          </picture>
           <div class="carousel-caption">
             <h4>Why to choose Directions?</h4>
             <p>
@@ -104,7 +112,15 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/water-bg.jpg" class="d-block w-100" alt="Water" />
+          <picture>
+            <source srcset="./images/water-bg.webp" type="image/webp" />
+            <source srcset="./images/water-bg.jpg" type="image/jpg" />
+            <img
+              src="./images/water-bg.jpg"
+              alt="Water"
+              class="d-block w-100"
+            />
+          </picture>
           <div class="carousel-caption">
             <h4>Created to make business easy</h4>
             <button type="button" class="btn btn-light">Contact Us</button>
@@ -153,11 +169,21 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <img
-              src="./images/how-we-got-started-1920.jpg"
-              alt=""
-              class="img-fluid mb-5"
-            />
+            <picture>
+              <source
+                srcset="./images/how-we-got-started-1920.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="./images/how-we-got-started-1920.jpg"
+                type="image/jpg"
+              />
+              <img
+                src="./images/how-we-got-started-1920.jpg"
+                alt="How we got started"
+                class="img-fluid mb-5"
+              />
+            </picture>
           </div>
           <div class="col-md-4">
             <h3>How We Got Started</h3>
@@ -340,7 +366,7 @@
           </div>
         </div>
         <div class="row align-items-center">
-          <div class="col-sm-4 gy-2">
+          <div class="col-sm-4 gy-3">
             <div class="card text-center">
               <div class="card-body">
                 <h4 class="card-title">Starter Plan</h4>
@@ -362,7 +388,7 @@
             <!-- End Card 1 -->
           </div>
 
-          <div class="col-sm-4 gy-2">
+          <div class="col-sm-4 gy-3">
             <div class="card border border-success border-3 text-center">
               <p class="card-header text-secondary">Best Value</p>
               <div class="card-body">
@@ -385,7 +411,7 @@
             <!-- End Card 2 -->
           </div>
 
-          <div class="col-sm-4 gy-2">
+          <div class="col-sm-4 gy-3">
             <div class="card text-center">
               <div class="card-body">
                 <h4 class="card-title">Plus Plan</h4>
